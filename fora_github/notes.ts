@@ -17,3 +17,14 @@
  * "description": "teclado bom"
  * }
  */
+
+//Entidades
+//Entidade <-> ORM <-> BD (users)
+//Tudo o que estiver dentro da minha tabela entidades, vai ser referente à tabela users
+
+//Repositório
+/**
+ * Entity (User) <-> ORM <-> BD
+ * dados <-> entidade
+ * Utilizamos para isso os repositórios
+ */
