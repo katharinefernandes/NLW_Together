@@ -1,4 +1,4 @@
-import { Request, Response} from "express";
+import { Request, Response } from "express";
 import { CreateComplimentService } from "../services/CreateComplimentService";
 
 
@@ -16,7 +16,7 @@ class CreateComplimentController {
       message,
     });
 
-    return { CreateComplimentController };
+    return response.json(compliment);
   }
 
 }

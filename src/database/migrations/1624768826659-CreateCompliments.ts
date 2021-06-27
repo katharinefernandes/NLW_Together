@@ -64,19 +64,6 @@ export class CreateCompliments1624768826659 implements MigrationInterface {
         )
     }
 
-    // await queryRunner.createForeignKey(
-    //     "compliments",
-    //     new TableForeignKey({
-    //         name: "FKUserSenderCompliments",
-    //             referencedTableName: "users",
-    //             referencedColumnNames: ["id"],
-    //             columnNames: ["user_sender"],
-    //             onDelete: "SET NULL",
-    //             onUpdate: "SET NULL"
-    //         }
-    //     });
-    // )
-
     public async down(queryRunner: QueryRunner): Promise<void> {
         await queryRunner.dropTable("compliments");
     }

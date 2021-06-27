@@ -12,7 +12,7 @@ class CreateUserService {
   async execute({
     name,
     email,
-    admin,
+    admin = false,
     password
   }: IUserRequest) {
     const usersRepository = getCustomRepository(UsersRepositories);
