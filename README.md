@@ -4,7 +4,7 @@
 Um evento especifico para nos auxiliar a se desenvolver na área tecnológica e dar o próximo passo como dev, isso tudo com a trilha que faz mais sentido para você.
 
 <p align="center">
-  <img  width='400' src='https://github.com/eu-larissasouza/nlwValoriza/blob/main/src/img/nlw-edition.png?raw=true'>
+  <img  width='400' src='https://github.com/katharinefernandes/Arquivos_Importantes/blob/main/Foto_NLW.jpg?raw=true'>
 </p>
 <br>
 
